@@ -10,7 +10,7 @@ console.assert(add(3, 5) === 8, 'A função add não está funcionando como espe
 function multiply(a,b){
     let result = 0
     for(let i=0;i<b;i++){
-    result += a}
+    result = add(result,a)}
 
     
     return result
